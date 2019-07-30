@@ -1,31 +1,39 @@
-Profile Views
--------------
-Profile Views present the properties of an entity. All entity types have a default profile view and may have multiple profile views. Profile views can be created and customized.
+Views
+-----
+Views present the properties of an object. All object types have a default view and may have multiple views. Views can be created and customized.
 
-To create a new profile view, from the Profile Views tab click on "CREATE PROFILE VIEW". You will be asked to:
+.. image:: ../connections-documentation/views_landing.png
 
-1. Edit Name
-  - Name your profile view
-2. Edit Categories
-  - Choose the entity type your profile view will display
-  - Create categories of properties
-    - When creating categories, properties contained in a category will be grouped and displayed together in the profile view.
+To create a new view, from the Views tab click on "CREATE VIEW". You will be asked to:
 
-    .. image:: ../kc-docs/create_and_order_cat_properties.png
+1. Name View
 
-    - You can rearrange properties via drag-and-drop within categories to change their order. The property listed first will be displayed first within the category.
-    - You can rearrange categories via drag-and-drop to change the order in which they appear in the profile view.
-    - Clicking on the context menu ••• for a category allows you to "Rename" or "Delete" a category.
+.. image:: ../connections-documentation/views_create_step1.png
 
-    .. image:: ../kc-docs/category_options.png
-      :heigh: 250
-      :width: 250
+2. Choose Type
+  - Choose the object type your view will display
 
-3. Preview Profile View
-  - Here you can see the ordering of categories and properties within categories. If you do not like the way categories or properties are ordered you can go back to the "Edit Categories"
+.. image:: ../connections-documentation/views_create_step2.png
 
-  .. image:: ../kc-docs/category_ordering_example.png
+3. Select Fields
+  - Drag and drop the available fields to the tier you want them to display.
+    - When creating tiers, fields contained in a tier will be grouped and displayed together in the view.
 
-In the Profile Views tab you can drag-and-drop profile views for an entity to change their priority. This will determine which profile view is seen first when you open the details of an entity, as well as the order of profile view tabs on the entity details page.
+.. image:: ../connections-documentation/views_create_step3.png
 
-From the Profiles View tab you can also edit, copy, or delete a profile view by clicking on the "ACTIONS" menu on each profile view.
+- You can rearrange fields via drag-and-drop within tiers to change their order. The field listed first will be displayed first within the tier.
+- You can rearrange tiers via drag-and-drop to change the order in which they appear in the view.
+- Clicking on the context menu ••• for a tier allows you to "Rename" or "Delete" a tier.
+
+.. image:: ../connections-documentation/views_tier_options.png
+  :height: 50%
+  :width: 50%
+
+4. Preview View
+  - Here you can see the ordering of tiers and fields within tiers. If you do not like the way tiers or fields are ordered you can go back to the "Select Fields" step.
+
+.. image:: ../connections-documentation/views_create_step4.png
+
+In the Views tab you can drag-and-drop views for an object to change their priority. This will determine which view is seen first when you open the details of an object, as well as the order of view tabs on the object details page.
+
+From the Views tab you can also edit, copy, or delete a view by clicking on the "ACTIONS" menu on each view.
