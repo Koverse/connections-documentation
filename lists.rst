@@ -4,9 +4,9 @@ The Lists page displays lists available to the current user. A List is a user-cu
 
 Clicking on the Lists tab in the navigation menu will display the lists available to the current user.
 
-From the Actions drop-down menu you can: rename a list, make public of private a list, or delete a list.
+From the Actions drop-down menu you can: rename a list, make public or private a list, or delete a list.
 
-.. image:: ../kc-docs/list_actions.png
+.. image:: list_actions.png
 
 On the Lists page you can click on a List to access it, sort the Lists by Name, Type, Author, Updated Date, and Privacy.
 
