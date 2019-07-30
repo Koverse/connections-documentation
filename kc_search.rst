@@ -2,32 +2,33 @@ Search
 ------
 The search page allows you to search for entities based on chosen criteria or filters.
 
+.. image:: ../connections-documentation/search_landing.png
+
 Search criteria can include:
 
-- Entity type
+- Object type
 - Text filter
-- Applicable attribute names
+- Applicable value names
 
-Clicking on an entity type will display all associated entities in the results list.
+Clicking on an object type will display all associated entities in the results list.
 
 With the search field, after you enter text, press return to apply the text entered as a filter.
 
-Use the "Filter By" selections to choose attribute values of an entity to filter.
+Use the "Filter By" selections to choose properties of an object to filter.
 
-To remove a filter, simply click the "X" next to the filter attribute.
+To remove a filter, simply click the "X" next to the property.
 
-.. image:: ../kc-docs/remove_filter.png
+.. image:: ../connections-documentation/search_remove_filter.png
 
 You can also click on "CLEAR FILTERS" to remove all currently applied filters.
 
-Clicking on an entity in the seach results will display a profile of that entity with its associated view tabs. Each view is customizable.
+Clicking on an object in the seach results will display a view of that object with its associated view tabs. Each view is customizable.
 
-.. image:: ../kc-docs/search_entity_view.png
+.. image:: ../connections-documentation/search_object_view.png
 
 You can also:
 
-- `Create a List`_
-- `Add to a List`_
-- `Download a CSV of Entities`_
-- `Merge Entities`_
 - `Hide or Show Attributes`_
+- `Merge Entities`_
+- `Download a CSV of Entities`_
+- `Add to List`_
