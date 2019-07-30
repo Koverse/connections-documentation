@@ -12,28 +12,29 @@ Contents
 
 `Navigation`_
 
-- `Dashboard`_
+- `Home`_
 - `Search`_
 - `Saved Searches`_
 - `Lists`_
 - `Lookalike Models`_
-- `Weighted Models`_
+- `Scoring Models`_
 
-`My Account`_
-
-`Manage Users`_
+`Account`_
 
 `Flags`_
 
-`Profile Views`_
+`Views`_
+
+`Users`_
+
+`Groups`_
 
 `Settings`_
 
 `Reference`_
 
-- `Entity Table Actions`_
-  - `Create a List`_
-  - `Add to a List`_
-  - `Download a CSV of Entities`_
-  - `Merge Entities`_
+- `Object Table Actions`_
   - `Hide or Show Attributes`_
+  - `Merge Entities`_
+  - `Download a CSV of Entities`_
+  - `Add to List`_

@@ -12,7 +12,7 @@ Contents
 
 `Navigation`_
 
-- `Dashboard`_
+- `Home`_
 - `Search`_
 - `Saved Searches`_
 - `Lists`_
@@ -27,16 +27,17 @@ Contents
 
 `Users`_
 
+`Groups`_
+
 `Settings`_
 
 `Reference`_
 
 - `Object Table Actions`_
-  - `Create a List`_
-  - `Add to a List`_
-  - `Download a CSV of Entities`_
-  - `Merge Entities`_
   - `Hide or Show Attributes`_
+  - `Merge Entities`_
+  - `Download a CSV of Entities`_
+  - `Add to List`_
 
 Accessing the User Interface
 ----------------------------
@@ -47,6 +48,10 @@ To log into Koverse Connections
 - Navigate your browser to your organizations Koverse Connections URL
 - Input your user name and password at the login screen
 
+.. image:: ../connections-documentation/connections_login.png
+  :height: 30%
+  :width: 30%
+
 To log out of Koverse Connections
 
 - Click on your user icon in the upper right portion of the window and select "Log Out"
@@ -55,7 +60,7 @@ Navigation
 ----------
 The main page of the Koverse Connections user interface displays (*the navigation can be customized and may contain more of fewer options than shown here*)
 
-- Dashboard
+- Home
 - Search
 - Lookalike Models
 - Scoring Models
@@ -65,13 +70,21 @@ The main page of the Koverse Connections user interface displays (*the navigatio
 - Account Icon/Menu
 - Logout Button
 
-Dashboard
----------
-The dashboard contains a customized view of Lists, Lookalike Models, Scoring Models and other customizable items.
+.. image:: ../connections-documentation/navigation.png
+  :height: 20%
+  :width: 20%
+
+Home
+----
+The home landing page shows statistics of your Koverse Connections system.
+
+.. image:: ../connections-documentation/connections_home.png
 
 Search
 ------
 The search page allows you to search for entities based on chosen criteria or filters.
+
+.. image:: ../connections-documentation/search_landing.png
 
 Search criteria can include:
 
@@ -87,25 +100,26 @@ Use the "Filter By" selections to choose properties of an object to filter.
 
 To remove a filter, simply click the "X" next to the property.
 
-.. image:: ../kc-docs/remove_filter.png
+.. image:: ../connections-documentation/search_remove_filter.png
 
 You can also click on "CLEAR FILTERS" to remove all currently applied filters.
 
 Clicking on an object in the seach results will display a view of that object with its associated view tabs. Each view is customizable.
 
-.. image:: ../kc-docs/search_object_view.png
+.. image:: ../connections-documentation/search_object_view.png
 
 You can also:
 
-- `Create a List`_
-- `Add to a List`_
-- `Download a CSV of Entities`_
-- `Merge Entities`_
 - `Hide or Show Attributes`_
+- `Merge Entities`_
+- `Download a CSV of Entities`_
+- `Add to List`_
 
 Saved Searches
 --------------
 A saved search allows a user to use the search page to create a search with one or more search criteria or filters and save it so that they may use it again or share it with others.
+
+.. image:: ../connections-documentation/saved_search_landing.png
 
 Unlike Lists which contain static data from a pervious search, saved searches are dynamic. For example:
 
@@ -118,7 +132,7 @@ To create a saved search, first navigate to the Search page and apply one or mor
 
 Click on the "SAVE SEARCH" button.
 
-.. image:: ../kc-docs/create_saved_search.png
+.. image:: ../connections-documentation/create_saved_search.png
 
 Once you have created a saved search, you can access the saved search on the "SAVED SEARCHES PAGE".
 
@@ -126,7 +140,7 @@ You can sort saved searches based on: Name, Type, Author, Created Date, Updated 
 
 From the Actions drop-down menu you can: Rename a saved search, make Public or Private a saved search, or Delete a saved search.
 
-.. image:: ../kc-docs/saved_search_actions.png
+.. image:: ../connections-documentation/saved_search_actions.png
 
 By clicking on a saved search, you will be taken to the search page where you can continue to modify the search criteria and filters. This will not affect the saved search.
 
@@ -138,28 +152,32 @@ The Lists page displays lists available to the current user. A List is a user-cu
 
 Clicking on the Lists tab in the navigation menu will display the lists available to the current user.
 
+From the List view you can see the number of entities contained in the List, the object type in the List, who created the List, when it was last updated, and a toggle to make the List private or public.
+
+.. image:: ../connections-documentation/lists_landing.png
+
 From the Actions drop-down menu you can: rename a list, make public of private a list, or delete a list.
 
-.. image:: ../kc-docs/list_actions.png
+.. image:: ../connections-documentation/list_actions.png
 
 On the Lists page you can click on a List to access it, sort the Lists by Name, Type, Author, Updated Date, and Privacy.
 
 Clicking on a List will open a view of the entities contained in that list.
 
-From the List view you can see the number of entities contained in the List, the object type in the List, who created the List, when it was last updated, and a toggle to make the List private or public.
-(needs image)
+.. image:: ../connections-documentation/lists_entity_view.png
 
 You can also:
 
-- `Create A List`_
-- `Add to a List`_
-- `Download a CSV of Entities`_
-- `Merge Entities`_
 - `Hide or Show Attributes`_
+- `Merge Entities`_
+- `Download a CSV of Entities`_
+- `Add to List`_
 
 Lookalike Models
 ----------------
 A lookalike model takes a list as input and creates a new list that has recommendations for entities similar to those on the input list.
+
+.. image:: ../connections-documentation/lookalike_model_landing.png
 
 Create a Lookalike Model
 ++++++++++++++++++++++++
@@ -167,9 +185,15 @@ To create a lookalike model navigate to the Lookalike Models tab and click "CREA
 
 1. Name Your Lookalike Model
   - Koverse Connections stores all lookalike models in specific Lookalike Models list, so there is no   need to name it 'Lookalike model of ...' Instead, try to give it a self explanatory and meaningful to you name.
+
+  .. image:: ../connections-documentation/lookalike_model_create_step1.png
+
 2. Select one list from the table below
   - The list you select is the list your lookalike model will be based upon.
-3. Click "CREATE MODEL"
+
+  .. image:: ../connections-documentation/lookalike_model_create_step2.png
+
+3. Click "SAVE AND RUN MODEL"
 
 Your lookalike model will now appear in the Lookalike Models tab.
 
@@ -179,15 +203,19 @@ To run a lookalike model, from the Lookalike Models tab, click on the lookalike 
 
 On the next page, click on "RUN MODEL". You should see a green prompt in the lower left hand corner of your browser window telling you "Model has been queued". This model will then run based on your Koverse Connectons system settings.
 
+.. image:: ../connections-documentation/lookalike_model_run.png
+  :height: 50%
+  :width: 50%
+
 Lookalike Model Options
 +++++++++++++++++++++++
 From the Lookalike Models tab you can click on a lookalike model to access more details.
 
-You can sort the lookalike models by Name, Type, Author, Created Date, Last Run Date, or Privacy. You can also run a lookalike model.
+You can sort the lookalike models by Model Name, Type, Author (Created By), Updated, Last Run, or Privacy. You can also run a lookalike model.
 
 From the actions menu drop-down you can: rename a lookalike model, make public or private a lookalike model, or delete a lookalike model.
 
-.. image:: ../kc-docs/lookalike_model_actions.png
+.. image:: ../connections-documentation/lookalike_model_actions.png
 
 On the details page of a lookalike model you can:
 
@@ -196,11 +224,15 @@ On the details page of a lookalike model you can:
 - Run the lookalike model
 - Rename the lookalike model
 - See the object results of the lookalike model
+- Search across the data in the lookalike model
+
+.. image:: ../connections-documentation/lookalike_model_details.png
 
 Scoring Models
 ---------------
-A Scoring Model creates a list based on user selected value scoring. For example: Potential customers are scored based on an algorithm that is as follows:
-0.2*assets+0.3*last quarter performance+0.25*consultant rating+0.25*percent assets in S&P 500.
+A Scoring Model creates a list based on a weighted criteria model that represents a linear combination of attribute values (e.g. 0.2*assets + 0.8*performance)
+
+.. image:: ../connections-documentation/scoring_model_landing.png
 
 Create a Scoring Model
 +++++++++++++++++++++++
@@ -208,15 +240,26 @@ To create a scoring model navigate to the Scoring Models tab and click "CREATE W
 
 1. Name Your Scoring Model
   - Koverse Connections stores all scoring models in specific Scoring Models list, so there is no need to name it 'Scoring model of ...' Instead, try to give it a self explanatory and meaningful to you name.
+
+  .. image:: ../connections-documentation/scoring_model_create_step1.png
+
 2. Choose the object type your scoring model will run on
+
+  .. image:: ../connections-documentation/scoring_model_create_step2.png
+
 3. Choose the fields and values you would like to focus on for your new scoring model
-  - If a field has more than one value, you may select one or multiple values. On the next page you will be able to individually score each value. (NEEDS IMAGE)
+  - If a field has more than one value, you may select one or multiple values. On the next page you will be able to individually score each value.
+
+  .. image:: ../connections-documentation/scoring_model_create_step3.png
+
 4. Assign scores to your chosen properties. These values will be used as multipliers for matching entities when determining their score.
   - Here you can assign scores to each chosen value from the Edit Properties step.
   - You can type in a score or use the slider to choose a score.
   - You can also delete a value that you no longer wish to give a score in your model.
 
-.. image:: ../kc-docs/scoring_model_value_assign_scores.png
+  .. image:: ../connections-documentation/scoring_model_create_step4.png
+
+  - Click "SAVE AND RUN MODEL"
 
 Run a Scoring Model
 ++++++++++++++++++++
@@ -224,13 +267,17 @@ To run a scoring model, from the Scoring Models tab, click on the scoring model 
 
 On the next page, click on "RUN MODEL". You should see a green prompt in the lower left hand corner of your browser window telling you "Model has been queued". This model will then run based on your Koverse Connectons system settings.
 
+.. image:: ../connections-documentation/scoring_model_run.png
+  :height: 50%
+  :width: 50%
+
 Scoring Model Options
 ++++++++++++++++++++++
 From the Scoring Models tab you can click on a scoring model to access more details.
 
-From the actions menu drop-down you can: rename a scoring model, make public or private a scoring model, copy a scoring model, modify a scoring model, or delete a scoring model.
+From the actions menu drop-down you can: rename a scoring model, make public or private a scoring model, copy a scoring model, edit a scoring model, or delete a scoring model.
 
-.. image:: ../kc-docs/scoring_model_actions.png
+.. image:: ../connections-documentation/scoring_model_actions1.png
 
 On the details page of a scoring model you can:
 
@@ -239,6 +286,9 @@ On the details page of a scoring model you can:
 - Run the scoring model
 - Rename the scoring model
 - See the object results of the scoring model
+- Search across the data in the scoring model
+
+.. image:: ../connections-documentation/scoring_model_details.png
 
 Account
 -------
@@ -248,6 +298,8 @@ The Account tab diplays information about your account. Here you can view:
 - Username for your account
 - Night Mode toggle (on or off)
 - Change password
+
+.. image:: ../connections-documentation/account_landing.png
 
 Flags
 -----
@@ -260,7 +312,7 @@ Flags allow users to call out data inaccuracies. To flag data, from the Search t
 2. Click on the "ALL DATA" view for the object
 3. Find the value you want to flag and click on the Flag icon
 
-.. image:: ../kc-docs/flag_user_step1.png
+.. image:: ../connections-documentation/flag_user_step11.png
 
 4. You will be asked to:
   - Give a reason for the flag
@@ -268,6 +320,11 @@ Flags allow users to call out data inaccuracies. To flag data, from the Search t
     + Out of date
   - Add a note (optional)
   - Provide a new value (optional)
+
+.. image:: ../connections-documentation/flag_user_step2.png
+  :height: 50%
+  :width: 50%
+
 5. Click submit
 
 Admin Workflow
@@ -278,7 +335,7 @@ Navigating the Admin Flags Page
 ===============================
 After clicking on the Flags tab you will be brought to a page containing any flags, initially filtered by Pending, sorted by Date. Filter by can be set to "Pending", "Approved", or "Dismissed". Sort by can be set to "Date" or "User".
 
-.. image:: ../kc-docs/flag_admin_landing.png
+.. image:: ../connections-documentation/flags_admin_landing.png
 
 Clicking on a flag will open details about that flag including:
 
@@ -295,7 +352,7 @@ Review Flags
 - Click on the pending flag you want to review
 - Follow one of the below workflows depending on the decision to dismiss or approve a flag
 
-.. image:: ../kc-docs/flag_admin_value.png
+.. image:: ../connections-documentation/flags_admin_landing.png
 
 There are four cases for an admin reviewing flags:
 
@@ -323,29 +380,37 @@ Views
 -----
 Views present the properties of an object. All object types have a default view and may have multiple views. Views can be created and customized.
 
+.. image:: ../connections-documentation/views_landing.png
+
 To create a new view, from the Views tab click on "CREATE VIEW". You will be asked to:
 
-1. Edit Name
-  - Name your view
-2. Edit Categories
+1. Name View
+
+.. image:: ../connections-documentation/views_create_step1.png
+
+2. Choose Type
   - Choose the object type your view will display
-  - Create categories of properties
-    - When creating categories, properties contained in a category will be grouped and displayed together in the view.
 
-    .. image:: ../kc-docs/create_and_order_cat_properties.png
+.. image:: ../connections-documentation/views_create_step2.png
 
-    - You can rearrange properties via drag-and-drop within categories to change their order. The property listed first will be displayed first within the category.
-    - You can rearrange categories via drag-and-drop to change the order in which they appear in the view.
-    - Clicking on the context menu ••• for a category allows you to "Rename" or "Delete" a category.
+3. Select Fields
+  - Drag and drop the available fields to the tier you want them to display.
+    - When creating tiers, fields contained in a tier will be grouped and displayed together in the view.
 
-    .. image:: ../kc-docs/category_options.png
-      :height: 250
-      :width: 250
+.. image:: ../connections-documentation/views_create_step3.png
 
-3. Preview View
-  - Here you can see the ordering of categories and properties within categories. If you do not like the way categories or properties are ordered you can go back to the "Edit Categories"
+- You can rearrange fields via drag-and-drop within tiers to change their order. The field listed first will be displayed first within the tier.
+- You can rearrange tiers via drag-and-drop to change the order in which they appear in the view.
+- Clicking on the context menu ••• for a tier allows you to "Rename" or "Delete" a tier.
 
-  .. image:: ../kc-docs/category_ordering_example.png
+.. image:: ../connections-documentation/views_tier_options.png
+  :height: 50%
+  :width: 50%
+
+4. Preview View
+  - Here you can see the ordering of tiers and fields within tiers. If you do not like the way tiers or fields are ordered you can go back to the "Select Fields" step.
+
+.. image:: ../connections-documentation/views_create_step4.png
 
 In the Views tab you can drag-and-drop views for an object to change their priority. This will determine which view is seen first when you open the details of an object, as well as the order of view tabs on the object details page.
 
@@ -355,7 +420,7 @@ Users
 -----
 From the Users tab, you will see the User Management page. Here you can change an account to a user (if the account is currently an admin) or change an account to an admin (if the account is currently a user), disable or enable an account, and change the password for an account.
 
-.. image:: ../kc-docs/user_administration.png
+.. image:: ../connections-documentation/user_administration.png
 
 Groups
 ------
@@ -363,7 +428,9 @@ Groups can be used to give a number of users specific permissions.
 
 To create a group, click on the Groups tab and click "CREATE GROUP". You will be asked to give the group a name and description.
 
-Each group can only be assigned permissions for one  on one object.
+.. image:: ../connections-documentation/groups_landing.png
+
+Each group can only be assigned permissions for one object.
 
 Assigning groups permissions is useful in cases such as sales territoties. For example, a company may have a state field that is used to set up regions:
 
@@ -380,9 +447,9 @@ You will be asked to:
 1. Name your group
 2. Give your group a description
 
-.. image:: ../kc-docs/create_group.png
-    :height: 250
-    :width: 250
+.. image:: ../connections-documentation/groups_create.png
+    :height: 50%
+    :width: 50%
 
 Groups Options
 ++++++++++++++
@@ -390,16 +457,18 @@ From the Groups tab you can click on a group to access more details.
 
 From the actions menu drop down you can: edit a group, copy a group, or delete a group.
 
-.. image:: ../kc-docs/group_actions.png
+.. image:: ../connections-documentation/groups_actions.png
 
 On the details page of a group you can:
 
-- View more information about the group including: Name, who created the group edit the group, group members, the permissions given to the group (if they already exist)
+- View more information about the group including: Name, who created the group, group members, the permissions given to the group (if they already exist)
 - Edit the group: name, and description
 - Delete the group
 - Add or Remove members from the group
 - Add permissions (if no permissions exist)
 - Edit or Delete permissions (if permissions exist)
+
+.. image:: ../connections-documentation/groups_details.png
 
 Groups Additional information
 +++++++++++++++++++++++++++++
@@ -414,6 +483,8 @@ To ensure that users can view all entities they should have access to, appropria
 
 Settings
 --------
+To access the system settings page, navigate to the default url <hostname:port>/settings. Contact your Koverse Connections system administrator for more questions.
+
 - Admin Email
 
   + This is the administrator Email for your Koverse Connections system.
@@ -496,26 +567,11 @@ Reference
 Object Table Actions
 --------------------
 
-Create a List
-+++++++++++++
-To create a List, select one or more entities and click "CREATE LIST".
-(needs image)
+Hide or Show Attributes
++++++++++++++++++++++++
+To hide or show specific attribute columns, click on the eye icon and select or deselect the attribute columns you wish to see.
 
-This will take you through the Create List wizard. Give the list a name and click "CREATE LIST".
-
-This new list will then appear in the Lists tab of the sidebar.
-
-Add to a List
-+++++++++++++
-To add entities to an existing List, select one or more entities you wish to add to a List and click "Add to List".
-
-You will be prompted to select the List where the object or entities will be added. Click "Add" or "Cancel" to finalize your choice.
-(needs image)
-
-Download a CSV of Entities
-++++++++++++++++++++++++++
-To download a CSV of one or more entities, select one or more entities and click the "CSV" button.
-(needs image)
+.. image:: ../connections-documentation/object_table_actions_hide_show.png
 
 Merge Entities
 ++++++++++++++
@@ -523,11 +579,22 @@ You will be asked to select the preferred name for this merged object.
 To merge two or more entities, select the entities you want to merge and click the "Merge" button.
 
 You will be prompted to select the preferred name for this merged object.
-(needs image)
 
-Hide or Show Attributes
-+++++++++++++++++++++++
-  To hide or show specific attribute columns, click on the eye icon and select or deselect the attribute columns you wish to see.
+.. image:: ../connections-documentation/merge.png
+
+Download a CSV of Entities
+++++++++++++++++++++++++++
+To download a CSV of one or more entities, select one or more entities and click the "CSV" button.
+
+.. image:: ../connections-documentation/download_csv.png
+
+Add to List
++++++++++++++
+To add entities to an existing List, or create a new list, select one or more entities you wish to add to a List and click "Add to List".
+
+You will be prompted to select the List where the object or entities will be added, or type the name of a new list you wish to create. Click "Add" or "Cancel" to finalize your choice.
+
+.. image:: ../connections-documentation/add_to_list.png
 
 Delete
 ++++++
