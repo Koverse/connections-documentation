@@ -4,6 +4,7 @@
    contain the root `toctree` directive.
 
 User Documentation:
+===================
 
 .. toctree::
    :maxdepth: 1
@@ -13,9 +14,10 @@ User Documentation:
    saved_search
    lists
    lookalike_models
-   weighted_models
+   scoring_models
    
 Administrator Documentation
+==========================
 
 .. toctree::
    :maxdepth: 1

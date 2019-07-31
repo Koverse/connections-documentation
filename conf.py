@@ -108,7 +108,33 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = ['_themes', ]
+    html_context = {
+            'display_github': False, # Add 'Edit on Github' link instead of 'View page source'
+            'last_updated': True,
+            'commit': False,
+            'css_files': [
+            '_static/css/theme.css',
+        ],
+    }
+else:
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = ['_themes', ]
+    html_context = {
+            'display_github': False, # Add 'Edit on Github' link instead of 'View page source'
+            'last_updated': True,
+            'commit': False,
+            'css_files': [
+            '_static/css/theme.css',
+        ],
+     }
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
