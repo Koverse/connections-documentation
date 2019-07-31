@@ -46,6 +46,8 @@ On the details page of a group you can:
 
 .. image:: /images/groups_details.png
 
+*Note: these settings may take 30 - 60 minutes before taking effect upon first configuration. Until then, all entities in the system will be visibile to all users*
+
 Groups Additional information
 +++++++++++++++++++++++++++++
 Once a value is assigned to a permission of a group, any values not assigned will not be visible to any other user. This means for all values to be visible, you must assign them to permissions of one or more groups. If you only need a subset of values to be visible, then you only need to assign those values to the groups you create.
