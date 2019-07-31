@@ -22,7 +22,10 @@ Administrator Documentation
 .. toctree::
    :maxdepth: 1
 
-   profile_views
+   flags
+   views
+   users
+   groups
    settings
    
 
