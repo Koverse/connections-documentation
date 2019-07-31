@@ -7,4 +7,4 @@ The Account tab diplays information about your account. Here you can view:
 - Night Mode toggle (on or off)
 - Change password
 
-.. image:: ../connections-documentation/account_landing.png
+.. image:: /images/account_landing.png

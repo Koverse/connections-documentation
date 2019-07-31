@@ -2,7 +2,7 @@ Lookalike Models
 ----------------
 A lookalike model takes a list as input and creates a new list that has recommendations for entities similar to those on the input list.
 
-.. image:: ../connections-documentation/lookalike_model_landing.png
+.. image:: /images/lookalike_model_landing.png
 
 Create a Lookalike Model
 ++++++++++++++++++++++++
@@ -11,12 +11,12 @@ To create a lookalike model navigate to the Lookalike Models tab and click "CREA
 1. Name Your Lookalike Model
   - Koverse Connections stores all lookalike models in specific Lookalike Models list, so there is no   need to name it 'Lookalike model of ...' Instead, try to give it a self explanatory and meaningful to you name.
 
-  .. image:: ../connections-documentation/lookalike_model_create_step1.png
+  .. image:: /images/lookalike_model_create_step1.png
 
 2. Select one list from the table below
   - The list you select is the list your lookalike model will be based upon.
 
-  .. image:: ../connections-documentation/lookalike_model_create_step2.png
+  .. image:: /images/lookalike_model_create_step2.png
 
 3. Click "SAVE AND RUN MODEL"
 
@@ -28,7 +28,7 @@ To run a lookalike model, from the Lookalike Models tab, click on the lookalike 
 
 On the next page, click on "RUN MODEL". You should see a green prompt in the lower left hand corner of your browser window telling you "Model has been queued". This model will then run based on your Koverse Connectons system settings.
 
-.. image:: ../connections-documentation/lookalike_model_run.png
+.. image:: /images/lookalike_model_run.png
   :height: 50%
   :width: 50%
 
@@ -40,7 +40,7 @@ You can sort the lookalike models by Model Name, Type, Author (Created By), Upda
 
 From the actions menu drop-down you can: rename a lookalike model, make public or private a lookalike model, or delete a lookalike model.
 
-.. image:: ../connections-documentation/lookalike_model_actions.png
+.. image:: /images/lookalike_model_actions.png
 
 On the details page of a lookalike model you can:
 
@@ -51,4 +51,4 @@ On the details page of a lookalike model you can:
 - See the object results of the lookalike model
 - Search across the data in the lookalike model
 
-.. image:: ../connections-documentation/lookalike_model_details.png
+.. image:: /images/lookalike_model_details.png

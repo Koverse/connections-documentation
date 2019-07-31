@@ -7,7 +7,7 @@ To log into Koverse Connections
 - Navigate your browser to your organizations Koverse Connections URL
 - Input your user name and password at the login screen
 
-.. image:: ../connections-documentation/connections_login.png
+.. image:: /images/connections_login.png
   :height: 30%
   :width: 30%
 
@@ -29,7 +29,7 @@ The main page of the Koverse Connections user interface displays (*the navigatio
 - Account Icon/Menu
 - Logout Button
 
-.. image:: ../connections-documentation/navigation.png
+.. image:: /images/navigation.png
   :height: 20%
   :width: 20%
 
@@ -37,4 +37,4 @@ Home
 ----
 The home landing page shows statistics of your Koverse Connections system.
 
-.. image:: ../connections-documentation/connections_home.png
+.. image:: /images/connections_home.png

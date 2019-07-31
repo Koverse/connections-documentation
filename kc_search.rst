@@ -2,7 +2,7 @@ Search
 ------
 The search page allows you to search for entities based on chosen criteria or filters.
 
-.. image:: ../connections-documentation/search_landing.png
+.. image:: /images/search_landing.png
 
 Search criteria can include:
 
@@ -18,17 +18,17 @@ Use the "Filter By" selections to choose properties of an object to filter.
 
 To remove a filter, simply click the "X" next to the property.
 
-.. image:: ../connections-documentation/search_remove_filter.png
+.. image:: /images/search_remove_filter.png
 
 You can also click on "CLEAR FILTERS" to remove all currently applied filters.
 
 Clicking on an object in the seach results will display a view of that object with its associated view tabs. Each view is customizable.
 
-.. image:: ../connections-documentation/search_object_view.png
+.. image:: /images/search_object_view.png
 
 You can also:
 
-- `Hide or Show Attributes`_
-- `Merge Entities`_
-- `Download a CSV of Entities`_
-- `Add to List`_
+- .. _Hide or Show Attributes: https://connections-documentation.readthedocs.io/en/latest/reference.html#HideOrShowAttributes
+- .. _Merge Entities: https://connections-documentation.readthedocs.io/en/latest/reference.html#MergeEntities
+- .. _Download a CSV of Entities: https://connections-documentation.readthedocs.io/en/latest/reference.html#DownloadACSVOfEntities
+- .. _Add to List: https://connections-documentation.readthedocs.io/en/latest/reference.html#AddToList

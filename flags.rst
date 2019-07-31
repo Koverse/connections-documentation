@@ -9,7 +9,7 @@ Flags allow users to call out data inaccuracies. To flag data, from the Search t
 2. Click on the "ALL DATA" view for the object
 3. Find the value you want to flag and click on the Flag icon
 
-.. image:: ../connections-documentation/flag_user_step11.png
+.. image:: /images/flag_user_step11.png
 
 4. You will be asked to:
   - Give a reason for the flag
@@ -18,7 +18,7 @@ Flags allow users to call out data inaccuracies. To flag data, from the Search t
   - Add a note (optional)
   - Provide a new value (optional)
 
-.. image:: ../connections-documentation/flag_user_step2.png
+.. image:: /images/flag_user_step2.png
   :height: 50%
   :width: 50%
 
@@ -32,7 +32,7 @@ Navigating the Admin Flags Page
 ===============================
 After clicking on the Flags tab you will be brought to a page containing any flags, initially filtered by Pending, sorted by Date. Filter by can be set to "Pending", "Approved", or "Dismissed". Sort by can be set to "Date" or "User".
 
-.. image:: ../connections-documentation/flags_admin_landing.png
+.. image:: /images/flags_admin_landing.png
 
 Clicking on a flag will open details about that flag including:
 
@@ -49,7 +49,7 @@ Review Flags
 - Click on the pending flag you want to review
 - Follow one of the below workflows depending on the decision to dismiss or approve a flag
 
-.. image:: ../connections-documentation/flags_admin_landing.png
+.. image:: /images/flags_admin_landing.png
 
 There are four cases for an admin reviewing flags:
 

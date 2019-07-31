@@ -2,7 +2,7 @@ Saved Searches
 --------------
 A saved search allows a user to use the search page to create a search with one or more search criteria or filters and save it so that they may use it again or share it with others.
 
-.. image:: ../connections-documentation/saved_search_landing.png
+.. image:: /images/saved_search_landing.png
 
 Unlike Lists which contain static data from a pervious search, saved searches are dynamic. For example:
 
@@ -15,7 +15,7 @@ To create a saved search, first navigate to the Search page and apply one or mor
 
 Click on the "SAVE SEARCH" button.
 
-.. image:: ../connections-documentation/create_saved_search.png
+.. image:: /images/create_saved_search.png
 
 Once you have created a saved search, you can access the saved search on the "SAVED SEARCHES PAGE".
 
@@ -23,7 +23,7 @@ You can sort saved searches based on: Name, Type, Author, Created Date, Updated 
 
 From the Actions drop-down menu you can: Rename a saved search, make Public or Private a saved search, or Delete a saved search.
 
-.. image:: ../connections-documentation/saved_search_actions.png
+.. image:: /images/saved_search_actions.png
 
 By clicking on a saved search, you will be taken to the search page where you can continue to modify the search criteria and filters. This will not affect the saved search.
 

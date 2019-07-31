@@ -4,7 +4,7 @@ Groups can be used to give a number of users specific permissions.
 
 To create a group, click on the Groups tab and click "CREATE GROUP". You will be asked to give the group a name and description.
 
-.. image:: ../connections-documentation/groups_landing.png
+.. image:: /images/groups_landing.png
 
 Each group can only be assigned permissions for one object.
 
@@ -23,7 +23,7 @@ You will be asked to:
 1. Name your group
 2. Give your group a description
 
-.. image:: ../connections-documentation/groups_create.png
+.. image:: /images/groups_create.png
     :height: 50%
     :width: 50%
 
@@ -33,7 +33,7 @@ From the Groups tab you can click on a group to access more details.
 
 From the actions menu drop down you can: edit a group, copy a group, or delete a group.
 
-.. image:: ../connections-documentation/groups_actions.png
+.. image:: /images/groups_actions.png
 
 On the details page of a group you can:
 
@@ -44,7 +44,7 @@ On the details page of a group you can:
 - Add permissions (if no permissions exist)
 - Edit or Delete permissions (if permissions exist)
 
-.. image:: ../connections-documentation/groups_details.png
+.. image:: /images/groups_details.png
 
 Groups Additional information
 +++++++++++++++++++++++++++++
