@@ -18,13 +18,13 @@ To merge two or more entities, select the entities you want to merge and click t
 
 You will be prompted to select the preferred name for this merged object.
 
-.. image:: /images/merge.png
+.. image:: /images/object_table_actions_merge.png
 
 Download a CSV of Entities
 ++++++++++++++++++++++++++
 To download a CSV of one or more entities, select one or more entities and click the "CSV" button.
 
-.. image:: /images/download_csv.png
+.. image:: /images/object_table_actions_download_csv.png
 
 Add to List
 +++++++++++++
@@ -32,7 +32,7 @@ To add entities to an existing List, or create a new list, select one or more en
 
 You will be prompted to select the List where the object or entities will be added, or type the name of a new list you wish to create. Click "Add" or "Cancel" to finalize your choice.
 
-.. image:: /images/add_to_list.png
+.. image:: /images/object_table_actions_add_to_list.png
 
 Delete
 ++++++
