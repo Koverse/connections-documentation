@@ -17,7 +17,7 @@ To log out of Koverse Connections
 
 Navigation
 ----------
-The main page of the Koverse Connections user interface displays (*the navigation can be customized and may contain more of fewer options than shown here*)
+The main page of the Koverse Connections user interface displays (*some of these navigation options are only available for Administrators*)
 
 - Home
 - Search
@@ -35,6 +35,6 @@ The main page of the Koverse Connections user interface displays (*the navigatio
 
 Home
 ----
-The home landing page shows statistics of your Koverse Connections system.
+The home landing page shows statistics of your Koverse Connections system including how much and which kinds of information are in the system as well as what lists and models are available.
 
 .. image:: /images/connections_home.png

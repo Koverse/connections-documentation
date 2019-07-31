@@ -17,7 +17,7 @@ Click on the "SAVE SEARCH" button.
 
 .. image:: /images/create_saved_search.png
 
-Once you have created a saved search, you can access the saved search on the "SAVED SEARCHES PAGE".
+Once you have created a saved search, you can access the saved search on the "Saved Searches" page.
 
 You can sort saved searches based on: Name, Type, Author, Created Date, Updated Date, and Privacy. To sort, simply click on the column header you want to sort by.
 

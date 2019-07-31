@@ -9,7 +9,7 @@ Create a Lookalike Model
 To create a lookalike model navigate to the Lookalike Models tab and click "CREATE LOOKALIKE MODEL":
 
 1. Name Your Lookalike Model
-  - Koverse Connections stores all lookalike models in specific Lookalike Models list, so there is no   need to name it 'Lookalike model of ...' Instead, try to give it a self explanatory and meaningful to you name.
+  - Koverse Connections will show the results of this model in various places throughout the tool so its helpful to name the model in such a way that it explains what its modeling for. For example, names starting with "Similar to Top Customers Last Year" is a good name.
 
   .. image:: /images/lookalike_model_create_step1.png
 

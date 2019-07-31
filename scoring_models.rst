@@ -1,12 +1,14 @@
 Scoring Models
 ---------------
-A Scoring Model creates a list based on a weighted criteria model that represents a linear combination of attribute values (e.g. 0.2*assets + 0.8*performance)
+A Scoring Model scores entities based on a linear combination of user defined scores associated with a specific value within a specific field.
+
+For example a model might specify that having the field "Industry" with the value "Finance" increases an entities score by 50 and having the field "Deal Status" with a value of "Closed" get an increase in scores of 80. The result being that any entity with both would have a final score of 130. 
 
 .. image:: /images/scoring_model_landing.png
 
 Create a Scoring Model
 +++++++++++++++++++++++
-To create a scoring model navigate to the Scoring Models tab and click "CREATE WEIGHTED MODEL". You will be asked to:
+To create a scoring model navigate to the Scoring Models tab and click "CREATE NEW SCORING MODEL". You will be asked to:
 
 1. Name Your Scoring Model
   - Koverse Connections stores all scoring models in specific Scoring Models list, so there is no need to name it 'Scoring model of ...' Instead, try to give it a self explanatory and meaningful to you name.
@@ -22,7 +24,7 @@ To create a scoring model navigate to the Scoring Models tab and click "CREATE W
 
   .. image:: /images/scoring_model_create_step3.png
 
-4. Assign scores to your chosen properties. These values will be used as multipliers for matching entities when determining their score.
+4. Assign scores to your chosen properties.
   - Here you can assign scores to each chosen value from the Edit Properties step.
   - You can type in a score or use the slider to choose a score.
   - You can also delete a value that you no longer wish to give a score in your model.
