@@ -33,8 +33,8 @@ Contents
 
 .. _Reference: https://connections-documentation.readthedocs.io/en/latest/reference.html
 
-- .. _Object Table Actions: https://connections-documentation.readthedocs.io/en/latest/reference.html#object-table-actions
-  - .. _Hide or Show Attributes: https://connections-documentation.readthedocs.io/en/latest/reference.html#hide-or-show-attributes
-  - .. _Merge Entities: https://connections-documentation.readthedocs.io/en/latest/reference.html#merge-entities
-  - .. _Download a CSV of Entities: https://connections-documentation.readthedocs.io/en/latest/reference.html#download-a-csv-of-entities
-  - .. _Add to List: https://connections-documentation.readthedocs.io/en/latest/reference.html#add-to-list
+- :ref:`Object Table Actions`
+  - :ref:`Hide or Show Attributes`
+  - :ref:`Merge Entities`
+  - :ref:`Download a CSV of Entities`
+  - :ref:`Add to List`

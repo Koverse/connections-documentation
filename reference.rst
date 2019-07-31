@@ -1,16 +1,21 @@
+.. _Reference:
+
 ---------
 Reference
 ---------
 
+.. _ObjectTableActions:
 Object Table Actions
 --------------------
 
+.. _HideOrShowAttributes:
 Hide or Show Attributes
 +++++++++++++++++++++++
 To hide or show specific attribute columns, click on the eye icon and select or deselect the attribute columns you wish to see.
 
 .. image:: /images/object_table_actions_hide_show.png
 
+.. _MergeEntities:
 Merge Entities
 ++++++++++++++
 You will be asked to select the preferred name for this merged object.
@@ -20,12 +25,14 @@ You will be prompted to select the preferred name for this merged object.
 
 .. image:: /images/object_table_actions_merge.png
 
+.. _DownloadACSVOfEntities:
 Download a CSV of Entities
 ++++++++++++++++++++++++++
 To download a CSV of one or more entities, select one or more entities and click the "CSV" button.
 
 .. image:: /images/object_table_actions_download_csv.png
 
+.. _AddToList:
 Add to List
 +++++++++++++
 To add entities to an existing List, or create a new list, select one or more entities you wish to add to a List and click "Add to List".
