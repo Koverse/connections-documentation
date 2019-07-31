@@ -47,7 +47,7 @@ From the Scoring Models tab you can click on a scoring model to access more deta
 
 From the actions menu drop-down you can: rename a scoring model, make public or private a scoring model, copy a scoring model, edit a scoring model, or delete a scoring model.
 
-.. image:: /images/scoring_model_actions1.png
+.. image:: /images/scoring_model_actions.png
 
 On the details page of a scoring model you can:
 

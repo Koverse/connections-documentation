@@ -9,7 +9,7 @@ Flags allow users to call out data inaccuracies. To flag data, from the Search t
 2. Click on the "ALL DATA" view for the object
 3. Find the value you want to flag and click on the Flag icon
 
-.. image:: /images/flag_user_step11.png
+.. image:: /images/flag_user_step1.png
 
 4. You will be asked to:
   - Give a reason for the flag
