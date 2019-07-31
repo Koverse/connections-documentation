@@ -6,32 +6,32 @@ User Documentation
 ------------------
 Contents
 --------
-`Accessing the User Interface`_
+.. _Accessing the User Interface: https://connections-documentation.readthedocs.io/en/latest/navigation.html#accessing-the-user-interface
 
-- `Logging in and out`_
+- .. _Logging in and out: https://connections-documentation.readthedocs.io/en/latest/navigation.html#logging-in-and-out
 
-`Navigation`_
+.. _Navigation: https://connections-documentation.readthedocs.io/en/latest/navigation.html#navigation
 
-- `Home`_
-- `Search`_
-- `Saved Searches`_
-- `Lists`_
-- `Lookalike Models`_
-- `Scoring Models`_
+- .. _Home: https://connections-documentation.readthedocs.io/en/latest/navigation.html#home
+- .. _Search: https://connections-documentation.readthedocs.io/en/latest/kc_search.html
+- .. _Saved Searches: https://connections-documentation.readthedocs.io/en/latest/saved_search.html
+- .. _Lists: https://connections-documentation.readthedocs.io/en/latest/lists.html
+- .. _Lookalike Models: https://connections-documentation.readthedocs.io/en/latest/lookalike_models.html
+- .. _Scoring Models: https://connections-documentation.readthedocs.io/en/latest/scoring_models.html
 
-`Account`_
+.. _Account: https://connections-documentation.readthedocs.io/en/latest/account.html
 
-`Flags`_
+.. _Flags: https://connections-documentation.readthedocs.io/en/latest/flags.html
 
-`Views`_
+.. _Views: https://connections-documentation.readthedocs.io/en/latest/views.html
 
-`Users`_
+.. _Users: https://connections-documentation.readthedocs.io/en/latest/users.html
 
-`Groups`_
+.. _Groups: https://connections-documentation.readthedocs.io/en/latest/groups.html
 
-`Settings`_
+.. _Settings: https://connections-documentation.readthedocs.io/en/latest/settings.html
 
-`Reference`_
+.. _Reference: https://connections-documentation.readthedocs.io/en/latest/reference.html
 
 - .. _Object Table Actions: https://connections-documentation.readthedocs.io/en/latest/reference.html#object-table-actions
   - .. _Hide or Show Attributes: https://connections-documentation.readthedocs.io/en/latest/reference.html#hide-or-show-attributes
