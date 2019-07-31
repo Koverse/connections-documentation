@@ -26,6 +26,7 @@ Administrator Documentation
    views
    users
    groups
+   data_visibility_permissions
    settings
    
 
