@@ -20,7 +20,7 @@ Clicking on a List will open a view of the entities contained in that list.
 
 You can also:
 
-- :ref:`Hide or Show Attributes`
-- :ref:`Merge Entities`
-- :ref:`Download a CSV of Entities`
-- :ref:`Add to List`
+- :ref:`HideOrShowAttributes`
+- :ref:`MergeEntities`
+- :ref:`DownloadACSVOfEntities`
+- :ref:`AddToList`

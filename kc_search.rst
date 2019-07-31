@@ -28,7 +28,7 @@ Clicking on an object in the seach results will display a view of that object wi
 
 You can also:
 
-- :ref:`Hide or Show Attributes`
-- :ref:`Merge Entities`
-- :ref:`Download a CSV of Entities`
-- :ref:`Add to List`
+- :ref:`HideOrShowAttributes`
+- :ref:`MergeEntities`
+- :ref:`DownloadACSVOfEntities`
+- :ref:`AddToList`

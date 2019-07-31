@@ -1,4 +1,4 @@
-=================================
+  =================================
 Koverse Connections Documentation
 =================================
 ------------------
@@ -33,8 +33,8 @@ Contents
 
 .. _Reference: https://connections-documentation.readthedocs.io/en/latest/reference.html
 
-- :ref:`Object Table Actions`
-  - :ref:`Hide or Show Attributes`
-  - :ref:`Merge Entities`
-  - :ref:`Download a CSV of Entities`
-  - :ref:`Add to List`
+- :ref:`ObjectTableActions`
+  - :ref:`HideOrShowAttributes`
+  - :ref:`MergeEntities`
+  - :ref:`DownloadACSVOfEntities`
+  - :ref:`AddToList`
