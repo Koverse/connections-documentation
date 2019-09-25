@@ -9,15 +9,15 @@ User Documentation:
 .. toctree::
    :maxdepth: 1
 
-   navigation
+   access
    kc_search
    saved_search
    lists
-   lookalike_models
-   scoring_models
-   
+   models
+   object_table
+
 Administrator Documentation
-==========================
+===========================
 
 .. toctree::
    :maxdepth: 1
@@ -28,5 +28,3 @@ Administrator Documentation
    groups
    data_visibility_permissions
    settings
-   
-

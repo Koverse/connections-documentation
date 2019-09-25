@@ -1,22 +1,14 @@
 Lists
 -----
-The Lists page displays lists available to the current user. A List is a user-curated list of entities of the same type.
+The Lists page displays all the lists available to the current user. A List is a user-curated list of objects of the same type.
 
-Clicking on the Lists tab in the navigation menu will display the lists available to the current user.
+From the Lists page you can see the number of entities contained in each List, the object type in the List, who created the List, when it was last updated, and a toggle to make the List private or public.
 
-From the List view you can see the number of entities contained in the List, the object type in the List, who created the List, when it was last updated, and a toggle to make the List private or public.
+From the drop-down menu on each row you can rename, change the privacy settings, or delete a list.
 
-.. image:: /images/lists_landing.png
+On the Lists page you can sort the Lists by Name, Object Type, Author, Updated Date, and Privacy.
 
-From the Actions drop-down menu you can: rename a list, make public of private a list, or delete a list.
-
-.. image:: /images/list_actions.png
-
-On the Lists page you can click on a List to access it, sort the Lists by Name, Type, Author, Updated Date, and Privacy.
-
-Clicking on a List will open a view of the entities contained in that list.
-
-.. image:: /images/lists_entity_view.png
+Clicking on a List will take you to the detail page, where you can view the objects contained in that list.
 
 You can also:
 
