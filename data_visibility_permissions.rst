@@ -1,7 +1,7 @@
 ---------------------------
 Data Visibility Permissions
 ---------------------------
-===========================
+
 
 Why Use Permissions for Data Visibility
 _______________________________________
@@ -15,8 +15,8 @@ As an example, a US wide sales team may be divided into different territories by
 
 =====
 
-How Visibilty Works in Koverse Connections
-__________________________________________
+How Visibility Works in Koverse Connections
+___________________________________________
 Concepts of Data Visibility
 ===========================
 An underlying assumption in Koverse Connections is that data privacy will be essential for some customers. This requires the ability to limit which data users can see.  In Koverse Connections, this is implemented by permissions that are assigned to groups.
@@ -34,6 +34,7 @@ For example, when creating sales groups:
 - UT is now an orphaned value, and any entity with UT as a field value will not be shown to any users
 
 This potential for orphaned values is essential to consider when creating groups and permissions. If field values are left unassigned, they will never display to any users of the Koverse Connections system.
+
 =====
 
 Current Limitations of Permissions

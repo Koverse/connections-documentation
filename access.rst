@@ -1,5 +1,6 @@
 Accessing the User Interface
-++++++++++++++++++
+++++++++++++++++++++++++++++
+
 To log into Koverse Connections
 
 - Navigate your browser to your organizations Koverse Connections URL
