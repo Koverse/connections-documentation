@@ -5,3 +5,4 @@ Release Notes
    :maxdepth: 1
 
    release_notes/1_0
+   release_notes/1_1
