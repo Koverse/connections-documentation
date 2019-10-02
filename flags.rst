@@ -10,6 +10,7 @@ Flags allow users to call out data inaccuracies. To flag data, from the Search p
 3. Find the value you want to flag and click on the Flag icon
 
 4. You will be asked to:
+
   - Give a reason for the flag
     + Data is wrong
     + Out of date
@@ -39,25 +40,29 @@ Review Flags
 - Click on the Flags tab
   - You will be brought to a page of flags filtered by Pending, sorted by Date
 - Click on the pending flag you want to review
-- Follow one of the below workflows depending on the decision to dismiss or approve a flag
+- Follow one of the below work-flows depending on the decision to dismiss or approve a flag
 
 There are four cases for an admin reviewing flags:
 
 1. Dismiss a flag (old value remains)
+
   - Click on "DISMISS FLAG"
   - The flag will now appear under "Filter By Dismissed"
 
 2. Approve a flag with a new user value (old value is removed)
+
   - Click on "APPROVE FLAG"
   - The flag will now appear under "Filter By Approved"
 
 3. Approve a flag with a new admin value (old value and user value are removed)
+
   - In the new value dialogue box, type in the value want to replace the user suggested new value.
     - This removes the old value as well as the value the user suggested when initially flagged.
   - Click on "APPROVE FLAG"
   - The flag will now appear under "Filter By Approved"
 
 4. Approve a flag with a new empty value (old value and user value are removed)
+
   - In the new value dialogue box, delete the user suggested value (the dialogue box should now be empty).
     - This removes the old value as well as the value the user suggested when initially flagged, but replaces it with no value, instead of a newly created admin value.
   - Click on "APPROVE FLAG"
