@@ -28,3 +28,4 @@ Administrator Documentation
    groups
    data_visibility_permissions
    settings
+   release_notes
