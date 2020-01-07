@@ -1,1 +1,9 @@
 _build/
+.idea/checkstyle-idea.xml
+.idea/connections-documentation.iml
+.idea/dictionaries/aaron.xml
+.idea/encodings.xml
+.idea/modules.xml
+.idea/thriftCompiler.xml
+.idea/vcs.xml
+.idea/workspace.xml

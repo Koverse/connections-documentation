@@ -1,11 +1,11 @@
 
 Models
-----------------
+------
 
 Users can create Models to find and score the objects in the system. There are currently 3 types of Models that can be configured.
 
 Model Types
-++++++++++++++++
++++++++++++
 
 **Lookalike Models**
 
@@ -26,7 +26,7 @@ Using the same example given above for Scoring models, the user could choose to 
 The weights applied to the fields must add up to 100.
 
 Create a Model
-++++++++++++++++++++++++
+++++++++++++++
 To create a model, navigate to the Models page and click "CREATE MODEL":
 
 1. Select the type of model you would like to create and click 'Next'
@@ -38,14 +38,14 @@ To create a model, navigate to the Models page and click "CREATE MODEL":
 Your model will now appear on the Models page.
 
 Run a Model
-+++++++++++++++++++++
++++++++++++
 To run a model, navigate to the Models page and click on the model you want to run.
 
 On the detail page for the model, click on "RUN MODEL". You should see a green prompt in the lower left hand corner of your browser window telling you "Model has been queued". This model will then run based on your Koverse Connections system settings.
 
 
 Model Options
-+++++++++++++++++++++++
++++++++++++++
 From the Models page you can click on a model to access more details.
 
 You can sort the models by clicking on the header column you want to sort by. You can also run a model from this page.

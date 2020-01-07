@@ -1,6 +1,6 @@
 Account
 -------
-The Account tab diplays information about your account. Here you can view:
+The Account tab displays information about your account. Here you can view:
 
 - Type of account (User or Admin)
 - Username for your account
