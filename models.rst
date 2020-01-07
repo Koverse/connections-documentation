@@ -30,8 +30,8 @@ Create a Model
 To create a model, navigate to the Models page and click "CREATE MODEL":
 
 1. Select the type of model you would like to create and click 'Next'
-2. Follow the steps to configure your model. They steps will be different based on the model type that was selected.
-3. Name Your Model. Koverse Connections will show the results of this model in various places throughout the tool so its helpful to name the model in such a way that it explains what its modeling for. For example, names starting with "Similar to Top Customers Last Year" is a good name.
+2. Follow the steps to configure your model. The steps will be different based on the model type that was selected.
+3. Name your model. Koverse Connections will show the results of this model in various places throughout the tool so its helpful to name the model in such a way that it explains what its modeling for. For example, names starting with "Similar to Top Customers Last Year" is a good name.
 
 4. Click "SAVE MODEL"
 
@@ -41,7 +41,7 @@ Run a Model
 +++++++++++
 To run a model, navigate to the Models page and click on the model you want to run.
 
-On the detail page for the model, click on "RUN MODEL". You should see a green prompt in the lower left hand corner of your browser window telling you "Model has been queued". This model will then run based on your Koverse Connectons system settings.
+On the detail page for the model, click on "RUN MODEL". You should see a green prompt in the lower left hand corner of your browser window telling you "Model has been queued". This model will then run based on your Koverse Connections system settings.
 
 
 Model Options
@@ -54,7 +54,7 @@ From the actions menu drop-down you can: rename, change the privacy settings, or
 
 On the details page of a model you can:
 
-- View more information about the model including: Name, number of entities, who created the model, and when the model was last run
+- View more information about the model including: Name, who created the model, and when the model was last run
 - Make the model private or public using the "Public/Private" toggle
 - Run the model
 - Rename the model
