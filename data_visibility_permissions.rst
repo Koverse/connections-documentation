@@ -5,7 +5,7 @@ Data Visibility Permissions
 
 Why Use Permissions for Data Visibility
 _______________________________________
-Organizations may need to control data visibility based on groups or departments within their oraganization. There can be a wide variety of groups or reasons for data visibility, including sales territories and sensitive data.
+Organizations may need to control data visibility based on groups or departments within their organization. There can be a wide variety of groups or reasons for data visibility, including sales territories and sensitive data.
 
 Permissions allow for an easily controlled and visible definition of data access. Using permissions allows administrators to determine groups that should or should not have access to certain data. Additionally, with the way visibility works in Koverse Connections, organizations that do not need to control data visibility do not need to design elaborate permissions.
 
@@ -30,30 +30,17 @@ ___________________________
 When creating permissions groups, there is the potential to create orphaned values. Orphaned values occur when permissions are created on fields, and not all values are assigned permissions.
 
 For example, when creating sales groups:
-- The NW sales group is created with field value visibility for WA, OR, ID, MT, but this time does not includ UT.
-- UT is now an orphaned value, and any entity with UT as a field value will not be shown to any users
+The NW sales group is created with field value visibility for WA, OR, ID, MT, but this time does not include UT.
+UT is now an orphaned value, and any entity with UT as a field value will not be shown to any users
 
 This potential for orphaned values is essential to consider when creating groups and permissions. If field values are left unassigned, they will never display to any users of the Koverse Connections system.
-=====
 
 Current Limitations of Permissions
-__________________________________
-Field Restrictions
-==================
-One Field Per Object Type
-+++++++++++++++++++++++++
-In KC 1.0, only one field can be assigned permissions per object type for each group. When creating a permission, you will be asked to select an object type and one attribute. To set permissions on multiple attributes of an object, groups must be created for each attribute of that object and permissions set accordingly.
-
-Group Restrictions
-==================
-One Permissions Per Group
+___________________________________
+One Permission Per Group
 +++++++++++++++++++++++++
 In KC 1.0, only one permission may be assigned to each group.  Each permission specifies a field and a set of values for that field.  When a user attempts to view an entity, the system checks to see what permissions are assigned for a user.  The user will only be able to see an entity if the values of the field in the entity match the permissions that are assigned to the user.
 
-Timing
-======
 Transform Timing
 ++++++++++++++++
-When creating groups and assigning permisisons to those groups, permission changes will not take effect until the Create Headlines transform is run. This means there is lag time between creating permissions and those permissions going into effect.
-
-Admins have the ability to run the Create Headlines transform manually to alleviate some of this lag time. In addition, the Create Headlines transform is scheduled to run automatically (timing will depend upon your specific installation).
+When creating groups and assigning permissions to those groups, permission changes will not take effect until the data pipeline has been re-run. This means there is lag time between creating permissions and those permissions going into effect.

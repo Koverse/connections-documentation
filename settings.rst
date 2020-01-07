@@ -4,52 +4,20 @@ To access the system settings page, navigate to the default url <hostname:port>/
 
 - Admin Email
 
-  + This is the administrator Email for your Koverse Connections system.
+  + This is the administrator email for your Koverse Connections system.
 
 - Koverse URL
 
-  + This is the url where you can find your Koverse Connections UI.
-  + Eg: server.koverse.com:3000
+  + This is the url where you can find your KISP UI.
+  + Eg: server.koverse.com:8080
 
 - Koverse API Token
 
   + The Koverse API Token comes from the KISP Admin tab and is created so that your Koverse Connections system can communicate with your KISP system. For more information see: https://documentation.koverse.com/en/3.0/dev/applications/api_tokens.html
 
-- Autocomplete Values Dataset IDs (comma-separated)
-
-  + The data set ID associated with your Autocomplete Values data set. This data set is created by Step 6b of the data flow: gather field values transform which takes the Hydrated Entities data set as input and outputs the Autocomplete Values data set.
-
-- Derived Assertions Dataset IDs (comma-separated)
-
-  + The data set ID associated with your Scores data set. This data set is created by Step 7a of the data flow: Spark SQL Copy Transform: only select Scores which takes the Raw Scores data set as input and outputs the Scores data set.
-
-- External Assertions Dataset IDs (comma-separated)
-
-  + The data set ID associated with your Assertions data set. This data set is created by Step 2a of the data flow: Spark SQL Transform: only select assertions (optional) which takes the Raw Assertions data set as input and outputs the Assertions data set.
-
 - User Assertions Dataset ID
 
   + The data set ID associated with your User Assertions data set. This data set ingests values from the UI as users score entities.
-
-- Headlines Dataset ID
-
-  + The data set ID associated with your Headlines data set. This data set is created by Step 8 of the data flow: Headline Generation transform which takes the Hydrated Entities data set and each Scores data set as input and outputs the Headlines data set.
-
-- Hydrated Dataset ID
-
-  + The data set ID associated with your Hydrated Entities data set. This data set is created by Step 5a of the data flow: Entity Hydration Transform which takes the Assertions data set and the User Assertions data set and outputs the Hydrated Entities data set.
-
-- Ontology Dataset ID
-
-  + The data set ID associated with your User Ontology data set. This data set ingests data from the UI as users create ontologies.
-
-- Metadata Dataset ID
-
-  + The data set ID associated with your Metadata data set. This data set is created by Step 9: Metadata Transform which take the Hydrated Entities data set and the Headlines data set as input and outputs the Metadata data set.
-
-- Queue Dataset ID
-
-  + The data set ID associated with your KISP queue data set. This data set ingests from the UI as users queue jobs such as running Lookalike or Scoring Models.
 
 - SMTP Host
 
