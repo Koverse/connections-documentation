@@ -6,8 +6,8 @@ Koverse Connections 1.0.0 Beta 1 introduces a new type of model: Weighted Models
 Features
 ++++++++
 
-- [KX-752] - Weighted Models
 - [KX-741] - Extract entities from nested data
+- [KX-752] - Weighted Models
 
 Improvements
 ++++++++++++
