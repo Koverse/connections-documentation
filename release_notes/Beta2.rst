@@ -1,5 +1,5 @@
-Connections 1.0.0 Beta 2
----
+1.0.0 Beta 2
+------------------------
 
 Koverse Connections 1.0.0 - Beta 2
 

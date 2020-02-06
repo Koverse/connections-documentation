@@ -1,5 +1,5 @@
-Connections 1.0.0 Alpha
----
+1.0.0 Alpha
+------------------------
 
 Koverse Connections 1.0.0 Alpha includes the ability for users and administrators to get started consolidating information about objects, searching for specific objects, creating lists, and creating two types of predictive models: Scoring Models for ranking objects by specific features, and LookAlike Models for ranking objects by their similarity to other known interesting objects.
 

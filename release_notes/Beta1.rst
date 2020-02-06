@@ -1,5 +1,5 @@
-Connections 1.0.0 Beta 1
----
+1.0.0 Beta 1
+------------------------
 
 Koverse Connections 1.0.0 Beta 1 introduces a new type of model: Weighted Models
 
