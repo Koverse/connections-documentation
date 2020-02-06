@@ -1,7 +1,7 @@
-1.1
+Connections 1.0.0 Beta 1
 ---
 
-Koverse Connections 1.1 introduces a new type of model: Weighted Models
+Koverse Connections 1.0.0 Beta 1 introduces a new type of model: Weighted Models
 
 Features
 ++++++++
@@ -18,8 +18,6 @@ Improvements
 Bug Fixes
 +++++++++
 
-1.1.1
-=====
 
 - [KX-792] - Spacing on numeric range Fields in Scores/Weights panels for model creation
 - [KX-793] - Update theme colors

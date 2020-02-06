@@ -1,7 +1,7 @@
-1.0
+Connections 1.0.0 Alpha
 ---
 
-Koverse Connections 1.0 includes the ability for users and administrators to get started consolidating information about objects, searching for specific objects, creating lists, and creating two types of predictive models: Scoring Models for ranking objects by specific features, and LookAlike Models for ranking objects by their similarity to other known interesting objects.
+Koverse Connections 1.0.0 Alpha includes the ability for users and administrators to get started consolidating information about objects, searching for specific objects, creating lists, and creating two types of predictive models: Scoring Models for ranking objects by specific features, and LookAlike Models for ranking objects by their similarity to other known interesting objects.
 
 Features
 ++++++++
@@ -25,9 +25,6 @@ Features
 Bug Fixes
 +++++++++
 
-1.0.1
-=====
-
 - [KX-733] - Fix Lookalike Model stack overflow
 - [KX-745] - Fix for night mode
 - [KX-746] - Fix for changing password
@@ -37,5 +34,3 @@ Bug Fixes
 - [KX-750] - Fix create Lookalike Model cancel button
 - [KX-763] - Refactored metadata transform to run more efficiently
 - [KX-765] - Fix Scoring Model transform error when encountering string in predominantly numeric column
-
-
